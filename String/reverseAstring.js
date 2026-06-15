@@ -51,3 +51,21 @@ in reverse order.
 
 ==================================================
 */
+
+const str ="kanhaiya";
+
+let rev ="";
+
+for(let i=str.length-1;i>=0;i--){
+
+     rev=rev+str[i];
+}
+
+console.log(rev);
+
+//Agar build-in method sai reverse karna hai to kuch aise kar sakte hai 
+
+const str = "kanhaiya";
+const rev = str.split("").reverse().join("");
+
+console.log(rev);
